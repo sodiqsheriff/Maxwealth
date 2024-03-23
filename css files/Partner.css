@@ -1,0 +1,42 @@
+.Partner{
+    display: flex;
+    flex-direction: row;
+    padding-top:10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: center;
+}
+.Partnertext{
+    max-width: 50%;
+}
+.Partnertext >h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #1F284F;
+    padding-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+    text-overflow: clip;
+    font-weight: 700;
+}
+.Partnertext >h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    text-overflow: clip;
+    font-weight: 400;
+    max-width: 65%;
+}
+.Partnerimg{
+    max-width: 50%;
+
+}
+.Partnerimg >img{
+    max-width: 100%;
+}
+.bluesection{
+    display: flex;
+    width: 100%;
+    height: 273px;
+    background-color: #1F284F;
+}

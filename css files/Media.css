@@ -1,0 +1,670 @@
+/* for mobile screens */
+@media only screen and (max-width: 600px) {
+    .dropdown {
+        display: none !important;
+    }
+  
+    .btn {
+        display: none !important;
+    }
+  
+    .menu {
+        display: block !important;
+    }
+    .image >img{
+      max-width: 80%  !important;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column !important;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 14% !important;
+        padding-bottom: 7% !important;
+        align-items: center;
+    }
+    .herotext{
+        max-width: 100% !important;
+    }
+    .herotext >h1{
+        font-size:30px !important;
+        font-family: 'Poppins', sans-serif;
+        color: #1F284F;
+        text-align: center !important;
+        line-height: 24px;
+        font-weight: 700;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+        font-weight: bold;
+    }
+    .herotext >h2{
+        font-size: 17px !important;
+        color: #1F284F;
+        line-height: 25px;
+        text-align: left;
+        max-width: 100% !important;
+        padding-bottom: 2%;
+        font-weight: 600;
+    }
+    .herotext >h3{
+        font-size: 16px;
+        color: #575757;
+        line-height: 25px;
+        text-align: left;
+        max-width: 100% !important;
+        padding-bottom: 2%;
+        font-weight: 400;
+    }
+    .heroimg{
+        max-width: 100% !important;
+    }
+    .heroimg >img{
+        max-width: 100%;
+    }
+    .Location{
+        display: flex;
+        flex-direction: column;
+        background-color: #E5E5E5;
+        padding-top: 5%;
+        padding-bottom: 7%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Location >h1{
+        font-size: 30px !important;
+        font-weight: bold;
+        line-height: 40px;
+        text-align: left;
+        color: #1F284F;
+        padding-bottom: 4%;
+    }
+    .locates{
+        display: flex;
+        flex-direction: column !important;
+        gap:0% !important;
+        align-items: center;
+        padding-top: 3%;
+    }
+    .locate{
+        display: block !important;
+        max-width: 100% !important;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 5% !important;
+    }
+    .locate >img{
+        display: flex;
+        width: 100%;
+        border-radius: 8px;
+        max-height: 206px;
+    }
+    .locate >h1{
+        font-size: 18px !important;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1F284F;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        text-align: center;
+        text-overflow: clip;
+    }
+    .locateIcon{
+        display: flex;
+        align-items: center;
+        flex-direction:row;
+        gap: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .locateIcon >img{
+        max-width: 100%;
+    }
+    .locateIcon >h2{
+       font-weight:400;
+       font-size: 15px !important;
+       text-overflow: clip;
+       color:#575757;
+    }
+    .Trusted{
+        display:none !important;
+    }
+
+    .Products{
+        padding: 5%;
+        background-color: #e5e5e5;
+    }
+    .Products >h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size:40px;
+        color:#1F284F;
+        line-height: 40px;
+        text-align: center;
+        text-overflow: clip;
+    }
+    .our-projects{
+        display: flex !important;
+        flex-direction: column !important;
+        /* grid-template-columns: repeat(1, 1fr) !important; */
+        align-items: start !important;
+        gap: 20px;
+        height: 100% !important;
+    }
+    .One{
+        max-width:100% !important;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .One >img{
+        margin: auto;
+        max-width: 100%;
+    }
+    .One >h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size:20px !important;
+        color:#18191F;
+        line-height: 27px !important;
+        text-align: center;
+        text-overflow: clip;
+        padding-bottom: 2%;
+        padding-top: 4%;
+    }
+    .One >h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size:12px !important;
+        color:#18191F;
+        line-height: 20px !important;
+        text-align: center;
+        text-overflow: clip;
+    }
+    /* story */
+    .Our-story{
+        display: flex;
+        align-items: center;
+        flex-direction: column !important;
+        padding: 5%;
+    }
+    .storytext{
+        max-width: 100% !important;
+    }
+    .storytext >h1{
+        font-family:'Poppins', sans-serif;
+        font-size: 30px !important;
+        font-weight: bold;
+        line-height: 40px !important;
+        color: #1F284F;
+        padding-bottom:3% ;
+        max-width:100% !important;
+        text-overflow: clip !important;
+        text-align: center !important;
+        padding-bottom: 1em !important;
+    }
+    .storytext >h2{
+        font-family:'Poppins', sans-serif;
+        font-size: 17px !important;
+        font-weight: 400;
+        line-height: 27px !important;
+        color: #1F284F;
+        max-width:100% !important;
+    }
+    .storytext >h3{
+        font-family:'Poppins', sans-serif;
+        font-size: 17px !important;
+        font-weight: 400;
+        line-height: 27px;
+        color: #1F284F;
+        padding-top: 5%;
+        max-width:100% !important;
+    }
+    .storyimg {
+        max-width: 100% !important;
+    }
+    .storyimg >img{
+        max-width: 100%;
+    }
+    .moretext{
+        padding: 5% !important;
+        font-family:'Poppins', sans-serif;
+        font-size: 17px !important;
+        font-weight: 400;
+        line-height: 42px;
+        color: #1F284F;
+        padding-top: 5%;
+    }
+
+    .leader{
+        display: flex !important;
+        flex-direction:column !important ;
+        /* grid-template-columns: repeat(1, 1fr) !important; */
+        gap: 1em !important;
+    }
+    .Partner{
+    display: flex;
+    flex-direction: column !important;
+    padding-top:10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: start !important;
+}
+.Partnertext{
+    max-width: 100% !important;
+}
+.Partnertext >h1{
+    font-size: 30px !important;
+    line-height: 60px;
+    color: #1F284F;
+    padding-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+    text-overflow: clip;
+    font-weight: 700;
+    text-align: center !important;
+}
+.Partnertext >h2{
+    font-size: 17px;
+    line-height: 30px;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    text-overflow: clip;
+    font-weight: 400;
+    max-width: 100% !important;
+}
+.Partnerimg{
+    max-width: 100% !important;
+
+}
+.Partnerimg >img{
+    max-width: 100%;
+}
+.bluesection{
+    display: flex;
+    width: 100%;
+    height: 273px;
+    background-color: #1F284F;
+}
+
+/* footer */
+.footer{
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.firstft{
+    display: flex;
+    flex-direction: column !important;
+    justify-self: center !important;
+    align-items: center;
+    gap: 10%;
+    max-height: 100% !important;
+    padding-bottom: 5%;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    max-width: 100% !important;
+    padding-bottom: 5% !important;
+}
+.iso{
+    width: 50%;
+}
+.lgo{
+    width: 30% !important;
+}
+.one >img{
+    max-width: 50% !important;
+    padding-bottom: 3%;
+}
+.one >h1{
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: clip;
+    line-height: 22px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between !important;
+    padding-bottom: 5% !important;
+    flex-direction: row;
+    gap: 15px;
+}
+.oneplus{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: space-between;
+    gap: 7% !important;
+    width: 100%;
+    padding-bottom: 10% !important;
+}
+ul >li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+    list-style-type: none;
+    font-weight: 700px;
+    font-size: 18px;
+    padding-bottom: 5% !important;
+}
+li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+li >a:hover{
+    text-decoration: underline;
+}
+.secondft{
+    display: flex;
+    align-items: center;
+    flex-direction: column !important;
+    gap: 10%;
+    max-height: 100% !important;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 1px solid gainsboro;
+}
+.reach{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#rch{
+    max-width: 100% !important;
+}
+.two{
+    margin-bottom: 5% !important;
+}
+.two >h1{
+    font-size:18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.reach >h1{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.reach >img{
+    max-width: 100%;
+}
+.copyright{
+    padding-top: 3%;
+    border-top:1px solid gainsboro;
+    display: flex;
+    justify-content:space-between;
+}
+.copyright >h1, h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+    
+  
+}
+
+/* for tablet screens */
+@media only screen and (min-width: 601px) and (max-width:1024px) {
+    .dropdown {
+        display: none !important;
+    }
+  
+    .btn {
+        display: none !important;
+    }
+  
+    .menu {
+        display: block !important;
+    }
+    .image >img{
+      max-width: 80%  !important;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column !important;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 7% !important;
+        padding-bottom: 7% !important;
+        align-items: center;
+    }
+    .herotext{
+        max-width: 100% !important;
+    }
+    .herotext >h1{
+        font-size:40px !important;
+        font-family: 'Poppins', sans-serif;
+        color: #1F284F;
+        text-align: center !important;
+        line-height: 24px;
+        font-weight: 700;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+        font-weight: bold;
+    }
+    .herotext >h2{
+        font-size: 17px !important;
+        color: #1F284F;
+        line-height: 25px;
+        text-align: left;
+        max-width: 100% !important;
+        padding-bottom: 2%;
+        font-weight: 600;
+    }
+    .herotext >h3{
+        font-size: 16px;
+        color: #575757;
+        line-height: 25px;
+        text-align: left;
+        max-width: 100% !important;
+        padding-bottom: 2%;
+        font-weight: 400;
+    }
+    .heroimg{
+        max-width: 100% !important;
+    }
+    .heroimg >img{
+        max-width: 100%;
+    }
+    .Location{
+        display: flex;
+        flex-direction: column;
+        height: max-content !important;
+        background-color: #E5E5E5;
+        padding-top: 5%;
+        padding-bottom: 10% !important;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Location >h1{
+        font-size: 30px !important;
+        font-weight: bold;
+        line-height: 40px;
+        text-align: left;
+        color: #1F284F;
+        padding-bottom: 4%;
+    }
+    .locates{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap:7% !important;
+        align-items: center;
+    }
+    .locate{
+        display: flex;
+        flex-direction: column;
+        max-width: 100% !important;
+        max-height: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .locate >img{
+        display: flex;
+        width: 100%;
+        border-radius: 8px;
+        max-height: 206px;
+    }
+    .locate >h1{
+        font-size: 12px !important;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1F284F;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        text-align: center;
+        text-overflow: clip;
+    }
+    .locateIcon{
+        display: flex;
+        align-items: center;
+        flex-direction:row;
+        gap: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+    .locateIcon >img{
+        max-width: 100%;
+    }
+    .locateIcon >h2{
+       font-weight:400;
+       font-size: 10px !important;
+       text-overflow: clip;
+       color:#575757;
+    }
+    .Trusted >h1{
+        font-size: 20px !important;
+    }
+
+    /* footer */
+   .footer{
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.firstft{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 10%;
+    max-height: 100% !important;
+    padding-bottom: 5%;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    max-width: 100% !important;
+    padding-bottom: 5% !important;
+}
+.iso{
+    width: 50%;
+}
+.lgo{
+    width: 30% !important;
+}
+.one >img{
+    max-width: 50% !important;
+    padding-bottom: 3%;
+}
+.one >h1{
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: clip;
+    line-height: 22px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between !important;
+    padding-bottom: 5% !important;
+    flex-direction: row;
+    gap: 15px;
+}
+.oneplus{
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    justify-content: space-between;
+    gap: 7% !important;
+    width: 100%;
+}
+ul >li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+    list-style-type: none;
+    font-weight: 700px;
+    font-size: 18px;
+    padding-bottom: 5% !important;
+}
+li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+li >a:hover{
+    text-decoration: underline;
+}
+.secondft{
+    display: flex;
+    justify-content: start !important;
+    flex-direction: column !important;
+    gap: 10%;
+    max-height: 100% !important;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 1px solid gainsboro;
+}
+.reach{
+    display: flex;
+    align-items: left !important;
+    gap: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#rch{
+    max-width: 100% !important;
+}
+.two{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.two >h1{
+    font-size:18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.reach >h1{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.reach >img{
+    max-width: 100%;
+}
+.copyright{
+    padding-top: 3%;
+    border-top:1px solid gainsboro;
+    display: flex;
+    justify-content:space-between;
+}
+.copyright >h1, h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+}
+
